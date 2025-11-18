@@ -3,6 +3,7 @@ import { ScrollView, View } from "react-native";
 import { HelloWave } from "@/components/hello-wave";
 import { ThemedText } from "@/components/themed-text";
 
+// test
 const colors = [];
 
 export default function HomeScreen() {
