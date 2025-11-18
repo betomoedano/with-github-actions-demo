@@ -3,7 +3,7 @@ import { View, Platform, ColorValue } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 import { ThemedText } from "@/components/themed-text";
-import { getColors } from "@/constants/colors";
+import { useFaceColors } from "@/constants/colors";
 
 export default function FaceDetailScreen() {
   const { id, name } = useLocalSearchParams<{
@@ -13,7 +13,7 @@ export default function FaceDetailScreen() {
   const insets = useSafeAreaInsets();
 
   // Find the color based on the name
-  const colors = getColors();
+  const colors = useFaceColors();
   const colorData = colors.find((c) => c.name === name);
   const color = colorData?.color || "#000000";
 
@@ -41,14 +41,7 @@ export default function FaceDetailScreen() {
     }
 
     // For iOS/Android system colors, use color name hints
-    const lightColors = [
-      "systemYellow",
-      "systemOrange",
-      "systemPink",
-      "fef7ed",
-      "fffff0",
-      "c4b5fd",
-    ];
+    const lightColors = ["systemYellow", "systemOrange", "systemPink"];
 
     if (lightColors.includes(colorName)) {
       return "#000000";
