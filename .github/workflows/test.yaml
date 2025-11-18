@@ -1,11 +1,11 @@
-name: Lint
+name: Test
 
 on:
   pull_request:
     branches: [main]
 
 jobs:
-  lint:
+  test:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,5 +16,5 @@ jobs:
       - name: Install dependencies
         run: bun install
 
-      - name: Run lint
-        run: bun lint
+      - name: Run tests
+        run: bun test
