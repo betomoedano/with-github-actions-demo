@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
@@ -17,9 +16,6 @@
     "@react-navigation/native": "^7.1.8",
     "expo": "~54.0.25",
     "expo-constants": "~18.0.10",
-    "expo-font": "~14.0.9",
-    "expo-haptics": "~15.0.7",
-    "expo-image": "~3.0.10",
     "expo-linking": "~8.0.9",
     "expo-router": "~6.0.15",
     "expo-splash-screen": "~31.0.11",
