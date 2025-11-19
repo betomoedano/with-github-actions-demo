@@ -13,7 +13,8 @@
       "bundleIdentifier": "com.betoatexpo.with-github-actions-demo",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
-      }
+      },
+      "appleTeamId": "T2A8YY9YDW"
     },
     "android": {
       "adaptiveIcon": {

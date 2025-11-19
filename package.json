@@ -48,5 +48,8 @@
     "jest-expo": "55.0.0-canary-20251118-8f7ee64",
     "typescript": "~5.9.2"
   },
-  "private": true
+  "private": true,
+  "patchedDependencies": {
+    "expo-dev-launcher@6.1.0-canary-20251118-8f7ee64": "patches/expo-dev-launcher@6.1.0-canary-20251118-8f7ee64.patch"
+  }
 }
