@@ -20,6 +20,7 @@
     "@react-navigation/native": "^7.1.8",
     "expo": "^55.0.0-canary-20251118-8f7ee64",
     "expo-constants": "18.1.0-canary-20251118-8f7ee64",
+    "expo-dev-client": "6.0.19-canary-20251118-8f7ee64",
     "expo-linking": "8.0.10-canary-20251118-8f7ee64",
     "expo-router": "7.0.0-canary-20251118-8f7ee64",
     "expo-splash-screen": "31.0.12-canary-20251118-8f7ee64",
