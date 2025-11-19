@@ -14,6 +14,7 @@
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       },
+      "icon": "./assets/expo.icon",
       "appleTeamId": "T2A8YY9YDW"
     },
     "android": {
