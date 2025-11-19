@@ -20,4 +20,4 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
       - name: Build on EAS
-        run: eas build --platform all --non-interactive --no-wait
+        run: eas build --platform ios --profile development --non-interactive --no-wait
