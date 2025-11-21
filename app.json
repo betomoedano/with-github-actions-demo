@@ -58,6 +58,12 @@
         "projectId": "fab4cb5b-f3eb-4182-b2c6-467c8a7fd6ba"
       }
     },
-    "owner": "betoatexpo"
+    "owner": "betoatexpo",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fab4cb5b-f3eb-4182-b2c6-467c8a7fd6ba"
+    }
   }
 }

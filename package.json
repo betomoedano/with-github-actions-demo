@@ -27,6 +27,7 @@
     "expo-status-bar": "3.0.9-canary-20251120-e46b3cc",
     "expo-symbols": "1.1.0-canary-20251120-e46b3cc",
     "expo-system-ui": "6.0.9-canary-20251120-e46b3cc",
+    "expo-updates": "29.1.0-canary-20251120-e46b3cc",
     "expo-web-browser": "15.0.10-canary-20251120-e46b3cc",
     "pressto": "^0.6.0",
     "react": "19.1.1",
