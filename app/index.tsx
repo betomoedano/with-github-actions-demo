@@ -40,13 +40,12 @@ function Faces(props: { numberOfFaces: number }) {
           asChild
         >
           <Link.Trigger>
-            <Pressable style={{ borderRadius: 16, overflow: "hidden" }}>
+            <Pressable style={{ borderRadius: 16 }}>
               <View
                 style={{
                   backgroundColor: face.color,
-                  width: "31%",
-                  aspectRatio: 1,
-                  minWidth: 100,
+                  width: 120,
+                  height: 100,
                 }}
               />
             </Pressable>
