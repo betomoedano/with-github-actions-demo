@@ -45,8 +45,8 @@ function Faces(props: { numberOfFaces: number }) {
                 style={{
                   backgroundColor: face.color,
                   width: 120,
-                  height: 100,
-                  borderRadius: 16,
+                  height: 120,
+                  borderRadius: 60,
                 }}
               />
             </Pressable>
